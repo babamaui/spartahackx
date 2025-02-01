@@ -1,5 +1,5 @@
 python -m venv .venv
-./.venv/bin/python -m pip install -r app/backend/requirements.txt
+./.venv/bin/python -m pip install -r backend/requirements.txt
 
 cd frontend
 
