@@ -4,4 +4,9 @@ python -m venv .venv
 cd frontend
 
 npm install
-npm start
+
+cd ..
+
+port=8080
+host=localhost
+./.venv/bin/python -m flask --app backend/app:app run --port "$port" --host "$host" --reload
